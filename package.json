@@ -1,5 +1,5 @@
 {
-  "name": "rarity-market",
+  "name": "raritysea",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/solomeowl/rarity-market.git"
+    "url": "git+https://github.com/guild-w/RaritySea.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/solomeowl/rarity-market/issues"
+    "url": "https://github.com/guild-w/RaritySea/issues"
   },
-  "homepage": "https://github.com/solomeowl/rarity-market#readme",
+  "homepage": "https://github.com/guild-w/RaritySea#readme",
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
