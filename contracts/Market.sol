@@ -244,8 +244,9 @@ contract RarityManifestedMarket is OwnableUpgradeable {
     // Collect fees between rounds
     function collectFees() external onlyOwner {
         require(s.feeBalance > 0, "No fee left");
+        uint256 amount = s.feeBalance;
         s.feeBalance = 0;
-        AddressUpgradeable.sendValue(payable(owner()), s.feeBalance);
+        AddressUpgradeable.sendValue(payable(owner()), amount);
     }
 
     // change the fee
